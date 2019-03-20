@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.039b1d70-0124-4914-bebd-d0411f2e0d57",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-dawg-pound-live"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "be5041b0d84bb3cbccf433d8a901e8d3"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "a304d90e67f2343e63098e437dd47f45"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:969390923732:function:ask-dawg-pound-live",
+            "functionName": "arn:aws:lambda:us-east-1:969390923732:function:ask-dawg-pound-live",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "1ffc76bf-2150-4fe1-8135-245623082702"
+          }
+        ]
+      }
+    }
+  }
+}
